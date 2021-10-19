@@ -94,7 +94,7 @@ body {
     height: 50px;
 }
 /*휴대폰일 때 */
-@media (max-width: 450px){
+@media (max-width: 1000px){
     #result {
         width: 875px;
         height: 1660px;
@@ -103,4 +103,4 @@ body {
         width: 870px;
         height: 1660px;
     }
-}  
+}
