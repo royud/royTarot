@@ -51,6 +51,7 @@ body {
 }
 #cardZone {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 1700px;
 }
@@ -59,13 +60,11 @@ body {
     height: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
 }
 .card {
     width: 420px;
     height: 720px;
-    background-color: teal;
+    overflow: hidden;
 }
 .card img {
     width: 100%;
@@ -94,3 +93,14 @@ body {
     width: 50px;
     height: 50px;
 }
+/*휴대폰일 때 */
+@media (max-width: 450px){
+    #result {
+        width: 875px;
+        height: 1660px;
+    }
+    #cardZone {
+        width: 870px;
+        height: 1660px;
+    }
+}  
