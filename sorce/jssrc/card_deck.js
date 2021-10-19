@@ -63,13 +63,13 @@ const card_deck = [
   card_name : "교황, 법황, 사제장",
   card_direction : "정방향",
   card_explain : "가르침, 관대함",
-  card : "./sorce/img/main/The_Hierophant.png",
+  card : "./sorce/img/main/The_HieroPhant.png",
   },
   {
   card_name : "교황, 법황, 사제장",
   card_direction : "역방향",
   card_explain : "협량, 나태",
-  card : "./sorce/img/main/The_Hierophant_rev.png",
+  card : "./sorce/img/main/The_HieroPhant_rev.png",
   },
   {
   card_name : "연인 연애",
@@ -207,13 +207,13 @@ const card_deck = [
   card_name : "별",
   card_direction : "정방향",
   card_explain : "희망, 동경",
-  card : "./sorce/img/main/The_star.png",
+  card : "./sorce/img/main/The_Star.png",
   },
   {
   card_name : "별",
   card_direction : "역방향",
   card_explain : "환멸, 비애",
-  card : "./sorce/img/main/The_star_rev.png",
+  card : "./sorce/img/main/The_Star_rev.png",
   },
   {
   card_name : "달",
