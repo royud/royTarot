@@ -55,3 +55,15 @@ body {
     width: 100%;
     height: 100%;
 }
+/*휴대폰일 때*/
+@media (max-width: 1000px){
+    #table {
+        width: 1000px;
+    }
+    .card_line5 {
+        width: 800px;
+    }
+    .card_line6 {
+        width: 870px;
+    }
+}
